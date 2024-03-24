@@ -2,6 +2,7 @@ import React from 'react'
 import { CiSearch } from "react-icons/ci";
 import { RxAvatar } from "react-icons/rx";
 import { FaBars } from "react-icons/fa";
+import { Link, NavLink } from 'react-router-dom';
 
 
 
@@ -13,8 +14,8 @@ const Navbar = () => {
             </div>
             <div className='max-h-56'>
                 <ul className='flex gap-9 cursor-pointer justify-center font-primary font-normal uppercase items-center py-3 text-s '>
-                    <li className='hidden md:block'>Home</li>
-                    <li className='hidden md:block'>About</li>
+                    <li className='hidden md:block'> <NavLink className="ease-in duration-300" to="/">Home</NavLink></li>
+                    <li className='hidden md:block'><NavLink className="ease-in duration-300" to="/about">About</NavLink></li>
                     <li className='hidden md:block'>Blogs</li>
                     <li className='hidden md:block'>Design</li>
                 </ul>
