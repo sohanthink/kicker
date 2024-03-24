@@ -3,7 +3,7 @@ import CategoryCard from './CategoryCard'
 const Category = () => {
     return (
         <>
-            <div className='grid grid-cols-2 sm:grid-cols-5 w-4/5 mx-auto gap-5 py-4'>
+            <div className='grid grid-cols-2 sm:grid-cols-5 w-11/12 md:w-4/5 mx-auto gap-5 py-10'>
                 <CategoryCard className="col-span-1" image="https://images.pexels.com/photos/18325432/pexels-photo-18325432/free-photo-of-hiker-and-a-camera-standing-by-a-lake-in-the-forest-with-her-arms-spread.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" category="worlds" link="https://sohanthink.com/" />
 
                 <CategoryCard className="" image="https://images.pexels.com/photos/18257204/pexels-photo-18257204/free-photo-of-couple-on-a-hiking-trip.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" category="Lifestyle" link="https://sohanthink.com/" />

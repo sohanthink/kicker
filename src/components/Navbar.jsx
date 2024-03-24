@@ -8,7 +8,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div class="grid grid-cols-3 gap-7 w-4/5 mx-auto sm:py-8 py-6">
+        <div class="grid grid-cols-3 gap-7 w-11/12 md:w-4/5 mx-auto sm:py-8 py-6">
             <div className='max-h-56'>
                 <h5 className='font-primary font-extrabold md:text-4xl text--xl uppercase md:py-1 py-3'>sohanthink</h5>
             </div>
