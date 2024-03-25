@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const BannerBlog = () => {
+const BannerBlog = ({ image }) => {
 
     let [card, setCard] = useState(false)
 
@@ -13,7 +13,11 @@ const BannerBlog = () => {
     }
 
     return (
-        <div onMouseOver={handleCardOver} onMouseLeave={handleCardLeave} className="h-[500px] font-primary bg-no-repeat bg-cover bg-middle" style={{ backgroundImage: 'url(https://images.pexels.com/photos/1480690/pexels-photo-1480690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)' }}>
+        <div onMouseOver={handleCardOver}
+            onMouseLeave={handleCardLeave}
+            className="h-[500px] font-primary bg-no-repeat bg-cover bg-middle"
+            style={{ backgroundImage: `url(${image})` }}>
+
             <div className='bg-slate-950/50 h-full text-white flex justify-center items-center flex-col'>
                 {/* <h6 className='uppercase rounded-full bg-slate-900 text-white px-4 py-1 text-sm'>news</h6> */}
 

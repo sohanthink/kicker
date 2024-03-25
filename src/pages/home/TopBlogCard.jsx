@@ -28,7 +28,7 @@ const TopBlogCard = ({ img, stitle, title, content }) => {
 
     return (
         <>
-            <div onMouseOver={handleCardOver} onMouseLeave={handleCardLeave} className='flex gap-4 sm:gap-8 flex-col sm:flex-row my-5'>
+            <div onMouseOver={handleCardOver} onMouseLeave={handleCardLeave} className='flex gap-4 sm:gap-8 flex-col sm:flex-row my-12'>
                 <div className='w-full sm:w-2/5 overflow-hidden'>
                     <Image className={`w-full h-full object-cover transition ease-in-out duration-500 ${card && "scale-125"}`} source={img} />
                 </div>
