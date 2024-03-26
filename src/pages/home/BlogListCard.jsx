@@ -3,9 +3,9 @@ import BlogList from '../../components/BlogList'
 
 const BlogListCard = () => {
     return (
-        <div className='font-primary py-10 border-b border-gray-300'>
+        <div className='font-primary py-14 border-b border-gray-300'>
             <h2 className='text-center font-bold text-l uppercase'>dont miss</h2>
-            <h6 className="text-center text-red-800 text-sm font-bold mt-2">
+            <h6 className="text-center text-red-800 text-sm font-bold my-2">
                 X X X
             </h6>
             <div className='space-y-7'>

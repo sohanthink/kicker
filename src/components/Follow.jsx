@@ -13,7 +13,7 @@ const Follow = () => {
             <h6 className="text-center text-red-800 text-sm font-bold mt-2">
                 X X X
             </h6>
-            <div className="icon flex justify-between py-10 border-b border-gray-300">
+            <div className="icon flex justify-between py-14 border-b border-gray-300">
                 <div className='flex flex-col justify-center items-center group'>
                     <div className='p-6 rounded-full border-gray-300 border transition-all group-hover:animate-bounce text-blue-600'> <FaFacebookF /> </div>
                     <span className='pt-5 text-slate-800 font-medium'>3K</span>
