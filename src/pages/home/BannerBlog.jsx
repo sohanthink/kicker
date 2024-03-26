@@ -15,13 +15,13 @@ const BannerBlog = ({ image }) => {
     return (
         <div onMouseOver={handleCardOver}
             onMouseLeave={handleCardLeave}
-            className="h-[500px] font-primary bg-no-repeat bg-cover bg-middle"
+            className="h-[500px] font-primary bg-no-repeat bg-cover bg-middle group"
             style={{ backgroundImage: `url(${image})` }}>
 
             <div className='bg-slate-950/50 h-full text-white flex justify-center items-center flex-col'>
                 {/* <h6 className='uppercase rounded-full bg-slate-900 text-white px-4 py-1 text-sm'>news</h6> */}
 
-                <h6 className={`uppercase rounded-full bg-slate-900 text-white px-4 py-1 text-sm transition-all duration-500 ${card && "bg-red-600"}`}>news</h6>
+                <h6 className="uppercase rounded-full bg-slate-900 text-white px-4 py-1 text-sm transition-all duration-500 group-hover:bg-red-600">news</h6>
 
                 {/* <h3 className='font-bold text-xl sm:text-6xl py-4'>Exotic Plants Discovery</h3> */}
 

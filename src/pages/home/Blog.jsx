@@ -3,10 +3,12 @@ import TopBlogCard from './TopBlogCard'
 import BannerBlog from './BannerBlog'
 import { Link } from 'react-router-dom'
 import HeroSlider from './HeroSlider'
+import Follow from '../../components/Follow'
+import BlogListCard from './BlogListCard'
 
 const Blog = () => {
     return (
-        <div className='w-11/12 md:w-4/5 mx-auto grid grid-cols-12'>
+        <div className='w-11/12 md:w-4/5 mx-auto grid grid-cols-12 gap-4'>
             {/* left portion of the blog parts */}
             <div className='sm:col-span-8 col-span-12'>
                 <div className='border-b-[1px] border-slate-400 mb-14 sm:mb-12'>
@@ -37,8 +39,10 @@ const Blog = () => {
             </div>
 
             {/* right portion of the blogs */}
-            <div className='sm:col-span-4 hidden sm:block'>
-                <HeroSlider />
+            <div className='sm:col-span-4 hidden sm:block p-5'>
+                {/* <HeroSlider /> */}
+                <Follow />
+                <BlogListCard />
             </div>
         </div>
     )
