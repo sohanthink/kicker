@@ -26,18 +26,18 @@ const Footer = () => {
 
             <div className='bg-gray-950/90'>
                 <div className='flex place-content-between w-11/12 md:w-4/5 mx-auto py-5 text-white border-t-[0.5px] border-white/75'>
-                    <div><p className='font-primary'>&copy; 2024 <Link className='underline' to="https://sohanthink.com/">Sohanthink.com</Link>. All rights reserved.</p></div>
-                    <div className='flex space-x-4'>
-                        <div className='p-3 rounded-full border-gray-300 border transition-all hover:animate-bounce cursor-pointer'>
+                    <div><p className='font-primary text-xs md:text-xl lg:text-xl'>&copy; 2024 <Link className='underline' to="https://sohanthink.com/">Sohanthink.com</Link>. All rights reserved.</p></div>
+                    <div className='flex sm:gap-4'>
+                        <div className='p-2 sm:p-3 rounded-full border-gray-300 border transition-all hover:animate-bounce cursor-pointer'>
                             <FaFacebookF />
                         </div>
-                        <div className='p-3 rounded-full border-gray-300 border transition-all hover:animate-bounce cursor-pointer'>
+                        <div className='p-2 sm:p-3 rounded-full border-gray-300 border transition-all hover:animate-bounce cursor-pointer'>
                             <FaXTwitter />
                         </div>
-                        <div className='p-3 rounded-full border-gray-300 border transition-all hover:animate-bounce cursor-pointer'>
+                        <div className='p-2 sm:p-3 rounded-full border-gray-300 border transition-all hover:animate-bounce cursor-pointer'>
                             <FaYoutube />
                         </div>
-                        <div className='p-3 rounded-full border-gray-300 border transition-all hover:animate-bounce cursor-pointer'>
+                        <div className='p-2 sm:p-3 rounded-full border-gray-300 border transition-all hover:animate-bounce cursor-pointer'>
                             <FaInstagram />
                         </div>
                     </div>

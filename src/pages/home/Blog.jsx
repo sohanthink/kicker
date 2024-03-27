@@ -9,7 +9,7 @@ import BlogSlider from './BlogSlider'
 
 const Blog = () => {
     return (
-        <div className='w-11/12 md:w-4/5 md:h-[1400px] mx-auto grid grid-cols-12 gap-4'>
+        <div className='w-11/12 md:w-4/5 md:h-[1400px] mx-auto grid grid-cols-12 gap-4 mb-20'>
             {/* left portion of the blog parts */}
             <div className='xl:col-span-8 col-span-12 h-full md:overflow-y-auto'>
                 <div className='border-b-[1px] border-slate-400/50 mb-14 sm:mb-12'>
