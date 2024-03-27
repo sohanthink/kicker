@@ -9,9 +9,9 @@ import BlogSlider from './BlogSlider'
 
 const Blog = () => {
     return (
-        <div className='w-11/12 md:w-4/5 md:h-[1400px] mx-auto grid grid-cols-12 gap-4 mb-20'>
+        <div className='w-11/12 md:w-4/5 mx-auto grid grid-cols-12 gap-4 mb-20 relative items-start'>
             {/* left portion of the blog parts */}
-            <div className='xl:col-span-8 col-span-12 h-full md:overflow-y-auto'>
+            <div className='xl:col-span-8 col-span-12'>
                 <div className='border-b-[1px] border-slate-400/50 mb-14 sm:mb-12'>
                     <TopBlogCard img='https://images.pexels.com/photos/1311587/pexels-photo-1311587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' content="We have gathered several projects that several projects that will catch your interest as a…" stitle='DESIGN' title='Trending Architecture Styles' />
                 </div>
@@ -49,7 +49,7 @@ const Blog = () => {
             </div>
 
             {/* right portion of the blogs */}
-            <div className='col-span-4 hidden xl:block p-5'>
+            <div className='col-span-4 hidden xl:block p-5 sticky top-0 right-0'>
                 {/* <HeroSlider /> */}
                 <Follow />
                 <BlogListCard />

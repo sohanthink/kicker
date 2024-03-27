@@ -25,9 +25,11 @@ const Navbar = () => {
                             <div class="dropdownp-5 pt-10 left-0 z-10 absolute md:w-full hidden group-hover:block rounded">
                                 <div class="card bg-gray-950/90 flex justify-between p-10">
                                     <div>
-                                        <CategoryCard link="/categories/fashion" image="https://images.pexels.com/photos/1154861/pexels-photo-1154861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" category="Fashion" />
-                                        <h3 className='text-white font-primary pt-3'>ami amar r keo nai</h3>
-                                        <h5 className='text-white font-primary pt-2 text-sm'>nai  erfkkvndf </h5>
+                                        <NavLink className="ease-in duration-300" to="/categories/fashion">
+                                            <CategoryCard link="/categories/fashion" image="https://images.pexels.com/photos/1154861/pexels-photo-1154861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" category="Fashion" />
+                                            <h3 className='text-white font-primary pt-3'>ami amar r keo nai</h3>
+                                            <h5 className='text-white font-primary pt-2 text-sm'>nai  erfkkvndf </h5>
+                                        </NavLink>
                                     </div>
 
                                     <CategoryCard link="" image="https://images.pexels.com/photos/1154861/pexels-photo-1154861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" category="Fashion" />
