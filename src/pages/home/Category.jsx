@@ -5,7 +5,7 @@ const Category = () => {
         <>
             <div className='grid grid-cols-12 sm:grid-cols-5 w-11/12 md:w-4/5 mx-auto gap-5 sm:py-10 py-5'>
                 <div className="col-span-6 sm:col-span-1">
-                    <CategoryCard image="https://images.pexels.com/photos/18325432/pexels-photo-18325432/free-photo-of-hiker-and-a-camera-standing-by-a-lake-in-the-forest-with-her-arms-spread.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" category="worlds" link="https://sohanthink.com/" />
+                    <CategoryCard image="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" category="Fashion" link="/categories/fashion" />
                 </div>
 
                 <div className="col-span-6 sm:col-span-1">
