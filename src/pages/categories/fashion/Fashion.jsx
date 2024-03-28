@@ -13,7 +13,7 @@ const Fashion = () => {
                 source="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
 
 
-            <div className='w-11/12 md:w-11/12 mx-auto font-primary my-10 space-y-6'>
+            <div className='w-11/12 mx-auto font-primary my-10 space-y-6'>
                 <div className='w-3/4 mx-auto space-y-4'>
                     <h6 className='uppercase text-red-600 font-medium'>Fashion</h6>
                     <h2 className='text-6xl font-bold text-gray-950/90'>The Cutest Fashion Trends of the Decade.</h2>

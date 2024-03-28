@@ -12,10 +12,10 @@ const Navbar = () => {
         <>
             <div class="grid grid-cols-3 gap-7 w-11/12 md:w-4/5 mx-auto sm:py-8 py-6 relative">
                 <div className='max-h-56'>
-                    <h5 className='font-primary font-extrabold md:text-4xl text--xl uppercase md:py-1 py-3'>sohanthink</h5>
+                    <h5 className='font-primary font-extrabold md:text-4xl text--xl md:py-1 py-3'>sohanthink</h5>
                 </div>
                 <div className='max-h-56'>
-                    <ul className='flex gap-9 cursor-pointer justify-center font-primary font-normal uppercase items-center py-3 text-s '>
+                    <ul className='flex gap-9 cursor-pointer justify-center font-primary font-normal items-center py-3 text-s '>
                         <li className='hidden md:block'> <NavLink className="ease-in duration-300" to="/">Home</NavLink></li>
                         <li className='hidden md:block'><NavLink className="ease-in duration-300" to="/about">About</NavLink></li>
                         <li class='hidden md:block group '>
