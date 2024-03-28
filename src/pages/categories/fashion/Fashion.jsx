@@ -3,6 +3,7 @@ import CategoryBanner from '../../../components/CategoryBanner'
 import CategoryBlog from '../CategoryBlog'
 import Ads from '../../../components/Ads'
 import Image from '../../../utilities/Image'
+import { FaFacebookF, FaInstagram, FaXTwitter, FaYoutube } from 'react-icons/fa6'
 
 const Fashion = () => {
     return (
@@ -15,14 +16,21 @@ const Fashion = () => {
 
             <div className='w-11/12 mx-auto font-primary my-10 space-y-6'>
                 <div className='w-3/4 mx-auto space-y-4'>
-                    <h6 className='uppercase text-red-600 font-medium'>Fashion</h6>
-                    <h2 className='text-6xl font-bold text-gray-950/90'>The Cutest Fashion Trends of the Decade.</h2>
+                    <h6 className='text-sm md:text-2xl uppercase text-red-600 font-medium'>Fashion</h6>
+                    <h2 className='text-2xl md:text-6xl font-bold text-gray-950/90'>The Cutest Fashion Trends of the Decade.</h2>
                     <p className='text-gray-950/90 font-light'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus quis voluptates soluta rerum, praesentium sequi eius ad officia accusantium facere! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus quis voluptates soluta rerum, praesentium sequi eius ad officia accusantium facere!</p>
 
                     <p className='text-gray-950/90 font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit deserunt eveniet esse commodi perspiciatis ipsum. Delectus aliquid cumque obcaecati minus doloribus eum nulla sit molestiae amet porro facere omnis, dolore quo vitae, corporis tempora aspernatur! Repellat, officia, asperiores magni ex quam est ad perspiciatis, eos nostrum rem aliquid distinctio facere?</p>
                 </div>
 
                 <Image source="https://images.pexels.com/photos/886404/pexels-photo-886404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+
+                <div className='flex gap-3 items-center justify-center'>
+                    <div className='p-6 rounded-full border-gray-300 border transition-all hover:animate-bounce text-blue-600 inline-block'> <FaFacebookF /> </div>
+                    <div className='p-6 rounded-full border-gray-300 border transition-all hover:animate-bounce text-blue-600 inline-block'> <FaXTwitter /> </div>
+                    <div className='p-6 rounded-full border-gray-300 border transition-all hover:animate-bounce text-blue-600 inline-block'> <FaYoutube /> </div>
+                    <div className='p-6 rounded-full border-gray-300 border transition-all hover:animate-bounce text-blue-600 inline-block'> <FaInstagram /> </div>
+                </div>
             </div>
 
 
