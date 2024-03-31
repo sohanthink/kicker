@@ -6,7 +6,7 @@ import Image from "../utilities/Image"
 const CategoryBanner = ({ source, category_name, category_heading }) => {
     return (
         <div className='flex w-full md:h-screen h-96'>
-            <div className='flex justify-center flex-col items-center font-primary w-1/2 font-semibold'>
+            <div className='md:flex justify-center flex-col items-center font-primary w-1/2 font-semibold hidden'>
                 <div className='md:w-3/4 w-full flex justify-center flex-col items-center text-center md:gap-5 gap-2'>
                     <h5 className='text-red-500 uppercase'>{category_name}</h5>
                     <h2 className='text-gray-950/90 md:text-5xl text-2xl leading-6'>{category_heading}</h2>
@@ -15,7 +15,7 @@ const CategoryBanner = ({ source, category_name, category_heading }) => {
                     </h6>
                 </div>
             </div>
-            <div className='w-1/2 md:h-screen h-96'>
+            <div className='w-full md:w-1/2 md:h-screen h-96'>
                 <Image className="w-full h-full bg-cover object-cover" source={source} />
             </div>
         </div>

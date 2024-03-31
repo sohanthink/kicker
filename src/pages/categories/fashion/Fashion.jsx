@@ -4,6 +4,7 @@ import CategoryBlog from '../CategoryBlog'
 import Ads from '../../../components/Ads'
 import Image from '../../../utilities/Image'
 import { FaFacebookF, FaInstagram, FaXTwitter, FaYoutube } from 'react-icons/fa6'
+import BlogList from '../../../components/BlogList'
 
 const Fashion = () => {
     return (
@@ -15,7 +16,7 @@ const Fashion = () => {
 
 
             <div className='w-11/12 mx-auto font-primary my-10 space-y-6'>
-                <div className='w-3/4 mx-auto space-y-4'>
+                <div className='w-3/4 mx-auto space-y-4 pb-2'>
                     <h6 className='text-sm md:text-2xl uppercase text-red-600 font-medium'>Fashion</h6>
                     <h2 className='text-2xl md:text-6xl font-bold text-gray-950/90'>The Cutest Fashion Trends of the Decade.</h2>
                     <p className='text-gray-950/90 font-light'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus quis voluptates soluta rerum, praesentium sequi eius ad officia accusantium facere! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus quis voluptates soluta rerum, praesentium sequi eius ad officia accusantium facere!</p>
@@ -35,7 +36,7 @@ const Fashion = () => {
 
 
             {/* scroll part starts here */}
-            <div className='w-11/12 md:w-4/5 mx-auto grid grid-cols-12 gap-x-4 font-primary relative items-start'>
+            <div className='w-11/12 md:w-4/5 mx-auto grid grid-cols-12 gap-x-6 font-primary relative items-start'>
 
                 <div className='col-span-12 md:col-span-8 '>
                     <div className='border-b-2 pb-9'>
@@ -67,6 +68,17 @@ const Fashion = () => {
                 <div className='col-span-4 hidden md:block sticky top-0 right-0'>
                     <div>
                         <Ads />
+                        <div className='py-14 space-y-4'>
+                            <h2 className='text-center font-bold text-l uppercase'>Trending Posts </h2>
+                            <h6 className="text-center text-red-800 text-sm font-bold mt-2">
+                                X X X
+                            </h6>
+                            <div className='space-y-8 '>
+                                <BlogList className='border-b-2 pb-4' image="https://images.pexels.com/photos/2393835/pexels-photo-2393835.jpeg?auto=compress&cs=tinysrgb&w=800" title="Nice to have this ooooooo." />
+                                <BlogList className='border-b-2 pb-4' image="https://images.pexels.com/photos/2393835/pexels-photo-2393835.jpeg?auto=compress&cs=tinysrgb&w=800" title="Nice to have this ooooooo. " />
+                                <BlogList image="https://images.pexels.com/photos/2393835/pexels-photo-2393835.jpeg?auto=compress&cs=tinysrgb&w=800" title="Nice to have this ooooooo." />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
