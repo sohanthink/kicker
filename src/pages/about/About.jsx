@@ -1,31 +1,9 @@
 import React from 'react'
 import Image from '../../utilities/Image'
-import { useCountUp, useRef, countUpRef } from 'react-countup';
-import CountUp from 'react-countup';
+
 
 
 const About = () => {
-
-    // const countUpRef = React.useRef(null);
-    // const { start, pauseResume, reset, update } = useCountUp({
-    //     ref: countUpRef,
-    //     start: 0,
-    //     end: 1234567,
-    //     delay: 1000,
-    //     duration: 5,
-    //     onReset: () => console.log('Resetted!'),
-    //     onUpdate: () => console.log('Updated!'),
-    //     onPauseResume: () => console.log('Paused or resumed!'),
-    //     onStart: ({ pauseResume }) => console.log(pauseResume),
-    //     onEnd: ({ pauseResume }) => console.log(pauseResume),
-    // });
-
-    // const [loading, setLoading] = React.useState(false);
-    // const onStart = () => { setLoading(true) };
-    // const onEnd = () => { setLoading(false) };
-    // const containerProps = {
-    //     'aria-busy': loading
-    // };
 
 
     return (
