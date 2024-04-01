@@ -53,18 +53,22 @@ const About = () => {
             </div>
 
             <div className='bg-purple-100 w-11/12 mx-auto flex justify-between px-36 py-14 font-primary'>
+
                 <div className='flex flex-col items-center space-y-2'>
                     <span className='text-7xl'>789</span>
                     <span className='uppercase'>perfect posts</span>
                 </div>
+
                 <div className='flex flex-col items-center space-y-2'>
                     <span className='text-7xl'>395</span>
                     <span className='uppercase'>perfect posts</span>
                 </div>
+
                 <div className='flex flex-col items-center space-y-2'>
                     <span className='text-7xl'>395</span>
                     <span className='uppercase'>perfect posts</span>
                 </div>
+
                 <div className='flex flex-col items-center space-y-2'>
                     <span className='text-7xl'>395</span>
                     <span className='uppercase'>perfect posts</span>
