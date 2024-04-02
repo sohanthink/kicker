@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from '../../utilities/Image'
+import Team from './Team'
 
 
 
@@ -50,6 +51,24 @@ const About = () => {
                 <div className='flex flex-col items-center space-y-2'>
                     <span className='text-7xl'>395</span>
                     <span className='uppercase'>perfect posts</span>
+                </div>
+
+            </div>
+
+            {/* team part starts here */}
+            <div className='grid grid-cols-12 w-11/12 mx-auto'>
+                <div className='col-span-12 '>
+                    <h2 className='font-primary text-4xl text-center font-bold pt-10'>Our Team</h2>
+                    <h6 className=' text-gray-400 font-primary text-center pb-10 pt-2 underline'>Meet With Our Nice People..</h6>
+                </div>
+                <div className='col-span-4 p-5'>
+                    <Team source="https://images.pexels.com/photos/18076420/pexels-photo-18076420/free-photo-of-farmer-smokes-cigarette-in-field-by-basket-with-tomatoes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" memberName="Diana" title="Artist" description="tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem." />
+                </div>
+                <div className='col-span-4 p-5'>
+                    <Team source="https://images.pexels.com/photos/5664990/pexels-photo-5664990.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" memberName="Tomtom" title="Artist" description="tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem." />
+                </div>
+                <div className='col-span-4 p-5'>
+                    <Team source="https://images.pexels.com/photos/14857237/pexels-photo-14857237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" memberName="HAnry" title="Artist" description="tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem." />
                 </div>
 
             </div>
